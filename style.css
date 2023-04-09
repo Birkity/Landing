@@ -57,105 +57,107 @@ a:link {
 }
 
 .btn-blue:hover {
-    background-color: white;
-    color:#3882f6 ;
+  background-color: white;
+  color: #3882f6;
 }
-.cont{
-    align-items: center;
-    justify-content: center;
+.cont {
+  align-items: center;
+  justify-content: center;
 }
-img{
-    float: left;
-    padding-left: 30px;
-    margin-top: 70px;
-}
-
-
-.h1-white{
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
+img {
+  float: left;
+  padding-left: 30px;
+  margin-top: 70px;
 }
 
+.h1-white {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #3882f6;
+  float: left;
+  width: 180px;
+  margin-left: 120px;
+}
 
+div.gallery:hover {
+  border: 1px solid #3882f6;
+}
 
+div.gallery img {
+  width: 180px;
+  height: auto;
+  align-items: center;
+}
 
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
-
-
-
-
-.group-item{
-    margin: 50px 80px;
-    background-color:#3882f6 ;
-    color: white;
-    padding: 10px 10px;
-    border: 2px solid white;
-    border-style:inherit;
-    display: flex;
+.group-item {
+  margin: 50px 80px;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 10px;
+  border: 2px solid white;
+  border-style: inherit;
+  display: flex;
 }
 .para,
-.inside-text{
-    font-size: 18px;
-    margin-bottom: 0px;
-    padding: 0px;
-    margin-left: 30px;
-    flex: 1;
-    
+.inside-text {
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-left: 30px;
+  flex: 1;
 }
-.btn-sin{
-    background-color: white;
-    color: #3882f6;
-    border: 1px solid lightblue;
-    padding: 15px 22px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    margin-top: 0px;
-    flex: 1;
+.btn-sin {
+  background-color: white;
+  color: #3882f6;
+  border: 1px solid lightblue;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 0px;
+  flex: 1;
 }
-.btn-sin:hover{
-    background-color:#3882f6;
-    color:white ;
-}
-
-
-.main-quote{
-    background-color: #E5E7EB;
-    padding: 80px 80px;
+.btn-sin:hover {
+  background-color: #3882f6;
+  color: white;
 }
 
-.quote{
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1F2937;
-    margin-left: 200px;
-}
-.name{
-    font-size: 26px;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1F2937; 
-    margin-left: 950px;
+.main-quote {
+  background-color: #e5e7eb;
+  padding: 80px 80px;
 }
 
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin-left: 200px;
+}
+.name {
+  font-size: 26px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin-left: 950px;
+}
 
-
-
-
-
-
-
-
-
-.end{
-    background-color: #1f2937;
-    color: #e5e7eb;
-    font-size: 18px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+.end {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
