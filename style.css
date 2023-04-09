@@ -55,6 +55,7 @@ a:link {
   margin-bottom: 120px;
   font-size: 18px;
 }
+
 .btn-blue:hover {
     background-color: white;
     color:#3882f6 ;
@@ -69,6 +70,56 @@ img{
     margin-top: 70px;
 }
 
+
+.h1-white{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
+
+
+
+
+
+
+
+
+.group-item{
+    margin: 50px 80px;
+    background-color:#3882f6 ;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-style:inherit;
+    display: flex;
+}
+.para,
+.inside-text{
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    flex: 1;
+    
+}
+.btn-sin{
+    background-color: white;
+    color: #3882f6;
+    border: 1px solid lightblue;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0px;
+    flex: 1;
+}
+.btn-sin:hover{
+    background-color:#3882f6;
+    color:white ;
+}
 
 
 .main-quote{
@@ -104,7 +155,6 @@ img{
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 50px 50px;
     margin: 0px;
     padding: 0px;
     text-align: center;
