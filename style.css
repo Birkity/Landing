@@ -1,22 +1,70 @@
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #1F2937 !important;
-    
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
 }
-
-h3{
-    color: #F9FAF8;
-    font-size: 24px;
-    margin-left: 140px;
+.container {
+  background-color: #1f2937;
 }
-p{
-    color: #E5E7EB;
-    margin-left: 230px;
-    margin-top: 30px;
-    
+.mt {
+  list-style-type: none;
+  display: flex;
+  background-color: #1f2937;
 }
-header{
-    background-color: #1F2937 !important;
-     background-size: cover;
-     display: flex;
+.main-landing {
+  background-color: #1f2937;
+  float: left;
+}
+.item {
+  display: inline;
+  margin-top: 35px;
+  margin-left: 190px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header-logo {
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+a:link {
+  text-decoration: none;
+}
+.main-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-left: 140px;
+  margin-top: 100px;
+}
+.second-title {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-left: 150px;
+}
+.btn-blue {
+  background-color: #3882f6;
+  color: white;
+  margin-left: 150px;
+  border: 2px solid lightblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 120px;
+  font-size: 18px;
+}
+.btn-blue:hover {
+    background-color: white;
+    color:#3882f6 ;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+}
+img{
+    float: left;
+    padding-left: 30px;
+    margin-top: 70px;
 }
